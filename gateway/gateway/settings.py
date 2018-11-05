@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'paypy'
 ]
 
 MIDDLEWARE = [
@@ -112,6 +113,12 @@ USE_I18N = True
 USE_L10N = True
 
 USE_TZ = True
+
+PAYU_KEY =  "*******" 
+PAYU_SALT =  "******"
+PAYU_SUCCESS_URL =  "add complete success redirect url"
+PAYU_FAILURE_URL = " add complete failure redirect url"
+PAYU_MODE =  "LIVE|TEST"
 
 
 # Static files (CSS, JavaScript, Images)
